@@ -42,7 +42,14 @@ iex> for <<c <- "hello">>, do: <<c>>
 ["h", "e", "l", "l", "o"]
 ```
 
-It's possible to use multiple generators which act like nested loops:
+As you may have noticed, generators rely on pattern matching to compare their input set to the left side variable.  In the event a match is not found, the value is ignored:
+
+```elixir
+iex> for {:ok, val} <- [ok: "Hello", error: "Unknown", ok: "World"], do: val
+["Hello", "World"]
+```
+
+It's possible to use multiple generators, much like nested loops:
 
 ```elixir
 iex> list = [1, 2, 3, 4]
@@ -67,6 +74,8 @@ iex> for n <- list, times <- 1..n, do: IO.puts "#{n} - #{times}"
 4 - 3
 4 - 4
 ```
+
+List comprehensions are syntatic sugar and should be used only when appropriate.
 
 ## Filters
 
@@ -104,4 +113,4 @@ iex> for c <- [72, 101, 108, 108, 111], into: "", do: <<c>>
 "Hello"
 ```
 
-That's it!  List comprehensions are an easy way to iterate through colletions in a concise manner.
+That's it!  List comprehensions are an easy way to iterate through collections in a concise manner.
