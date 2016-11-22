@@ -61,7 +61,7 @@ sections:
       tr: Temeller
       bg: Основи
       de: Grundlagen
-	  nl: Basis
+      nl: Basis
   - tag: advanced
     label:
       en: Advanced
@@ -107,7 +107,7 @@ sections:
       tr: Spesifik
       bg: Спесифики
       de: Einzelheiten
-      nl: Specifiek
+      nl: Bijzonderheden
 
 gems:
   - kramdown
