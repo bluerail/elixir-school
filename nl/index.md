@@ -8,13 +8,22 @@ lang: nl
 
 Lessen over de Elixir programmeertaal, geïnspireerd door Twitter's [Scala School](http://twitter.github.io/scala_school/).
 
-Beschikbaar in [Việt ngữ][vi], [汉语][cn], [Español][es], [日本語][jp] and [Português][pt].
+Beschikbaar in [Việt ngữ][vi], [汉语][cn], [Español][es], [Slovenčina][sk], [日本語][jp], [Polski][pl], [Português][pt], [Русском][ru], [Bahasa Melayu][my], [Українською][uk], [한국어][ko], [L'italiano][it], [Deutsch][de], [Nederlands][nl] en nog meer.
 
-[cn]: https://elixirschool.com/cn/
-[es]: https://elixirschool.com/es/
-[jp]: https://elixirschool.com/jp/
-[pt]: https://elixirschool.com/pt/
-[vi]: https://elixirschool.com/vi/
+  [cn]: /cn/
+  [es]: /es/
+  [it]: /it/
+  [jp]: /jp/
+  [ko]: /ko/
+  [pl]: /pl/
+  [pt]: /pt/
+  [ru]: /ru/
+  [sk]: /sk/
+  [vi]: /vi/
+  [my]: /my/
+  [uk]: /uk/
+  [de]: /de/
+  [nl]: /nl/
 
 _Feedback geven en deelnemen aan dit project wordt aangemoedigd!_
 
